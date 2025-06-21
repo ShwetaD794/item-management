@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  background-color: rgb(137, 137, 189);
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.logo{
+  color: purple;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none !important;
+  text-align: left;
+  margin:0 50px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none !important;
+  margin: 50px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
